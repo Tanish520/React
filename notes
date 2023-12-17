@@ -1,0 +1,41 @@
+What is react ?
+React is a popular JS library for building user interfaces, particularly for creating single-page applications where user interface needs to be dynamic and resposive.
+
+What is user interface ?
+The goal of a user interface is to enable effective and efficient communication between the user and the system, allowing users to achieve their goals and task.
+user interface includes:
+-button,images,forms
+-layouts: arrangement and positioning of components on the screen
+-navigation
+-feedback
+-interactivity
+
+
+What is the difference between library and framework ?
+
+Library:
+-libraries typically do not control the overall flow of the application. Instead, they provide specific functionalities that the developer can use as needed.
+-developer have the control and decides when and how to use the library's function.
+-they are designed to provide specific functionalities.
+-developer can choose which parts of the library to use and integrate them into their application.
+-eg: jquery, ajax
+
+
+Framework:
+-Frameworks provide a pre-defined structure and control the flow of application. The developer builts the application by filling in the framework's structure with their code.
+-Frameworks are generally larger in scope than libraries. They encompass a set of tools, rules and conventions for building applications.
+-eg:Angular, Django.
+
+
+what is crossorigin ?
+-It is used in CDN links to control how browsers handle cross-origin requests when fetching resources, such as javascript files, from a different domain. It is use to ensure proper security measures are in places.
+
+-The crossorigin attribute can have two values:
+
+"anonymous": This is the default value. It indicates that the resource should be fetched without including any credentials (such as cookies or HTTP authentication) in the request.
+
+"use-credentials": This value indicates that the resource request should include credentials. The browser will include appropriate credentials (like cookies) when fetching the resource.
+
+-cross-origin refers to http request from a web page that orginates from one domain to a different domain.
+
+
